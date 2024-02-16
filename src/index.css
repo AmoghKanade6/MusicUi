@@ -1,0 +1,84 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  background-color: #eef6f9;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.herologo {
+  width: 30px;
+  height: 25px;
+}
+
+.btn {
+  font-family: sans-serif;
+  background-color: transparent;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 3px solid #0057ff;
+  font-weight: 800;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.title1 {
+  font-weight: 500;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.title2 {
+  font-weight: 800;
+  font-size: 140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0057ff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.title3 {
+  font-weight: 400;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0;
+  opacity: 60%;
+  margin-top: 0;
+}
