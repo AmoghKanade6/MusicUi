@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Krona One";
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -13,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 50px;
+  margin: 20px 80px;
 }
 
 .logo {
@@ -53,22 +54,21 @@
 .left {
   display: flex;
   flex-direction: column;
-  width: 200px;
-  margin-left: 50px;
+  width: auto;
+  margin-left: 80px;
 }
 
 .title1 {
   font-weight: 500;
-  font-size: 60px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 65px;
   margin-top: 20px;
+  color: #0057ff;
   margin-bottom: 0;
 }
 
 .title2 {
   font-weight: 800;
-  font-size: 140px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
   color: #0057ff;
   margin-bottom: 0;
   margin-top: 0;
@@ -76,9 +76,16 @@
 
 .title3 {
   font-weight: 400;
-  font-size: 22px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+  opacity: 70%;
+  margin-top: -28px;
+}
+
+.desc {
+  font-weight: 300;
+  font-size: 20px;
   margin-bottom: 0;
-  opacity: 60%;
+  opacity: 50%;
   margin-top: 0;
 }
