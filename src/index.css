@@ -12,6 +12,7 @@
 }
 
 .navbar {
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,9 +103,10 @@
 .music-img {
   position: absolute;
   z-index: -10;
-  width: 70%;
-  margin-left: -240px;
+  width: 45%;
+  margin-left: 50px;
   margin-top: -110px;
+  border: none;
 }
 
 .card {

@@ -1,5 +1,5 @@
 import bgImg from "../assets/white musical note making sound.png";
-import musicImg from "../assets/musicbeats.png";
+import musicImg from "../assets/Render.mp4";
 import Card from "./Card";
 import { iconsList, profileMusic } from "../iconsList";
 import MusicCrad from "./MusicCrad";
@@ -19,7 +19,9 @@ const HeroSection = () => {
         <Card iconsL={iconsList} />
       </div>
       <div className="right">
-        <img className="music-img" src={musicImg} />
+        <video className="music-img" autoPlay loop muted>
+          <source src={musicImg} type="video/mp4" />
+        </video>
         <div className="music-cards">
           <MusicCrad profile={profileMusic} />
         </div>

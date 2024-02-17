@@ -54,14 +54,14 @@ export const profileMusic = [
     src: p2,
     title: "Fighter",
     song: "Ishq jaisa kuch",
-    lines: l3,
+    lines: l2,
   },
   {
     id: 4,
     src: p1,
     title: "KGF Chapter 2",
     song: "Toofan",
-    lines: l2,
+    lines: l3,
   },
   {
     id: 5,
