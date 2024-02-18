@@ -1,17 +1,21 @@
 /* eslint-disable react/prop-types */
 import pause from "../assets/Pause Button.png";
 
-const Wrapper = ({ id, profileData, extraClass, isClass }) => {
+const Wrapper = ({ profileData }) => {
+  const { src, title, song, lines, extraClass, isClass } = profileData;
   return (
-    <div key={id} className={`music-profile ${isClass ? extraClass : null}`}>
+    <div
+      key={profileData.id}
+      className={`music-profile ${isClass ? extraClass : null}`}
+    >
       <div className="music-list">
-        <img className="pro" src={profileData.src} />
+        <img className="pro" src={src} />
         <div className="titles">
-          <span>{profileData.title}</span>
-          <h3>{profileData.song}</h3>
+          <span>{title}</span>
+          <h3>{song}</h3>
         </div>
-        <img className="lines" key={profileData.id} src={profileData.lines} />
-        <img className="pause" key={profileData.id} src={pause} />
+        <img className="lines" src={lines} />
+        <img className="pause" src={pause} />
       </div>
     </div>
   );

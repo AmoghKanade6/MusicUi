@@ -1,41 +1,22 @@
 /* eslint-disable react/prop-types */
 
 import Wrapper from "./Wrapper";
-import { profileMusic } from "../iconsList";
+import { profileMusic, rowData } from "../iconsList";
 
 const MusicCrad = () => {
   return (
     <>
-      <Wrapper
-        id={crypto.randomUUID()}
-        profileData={profileMusic[0]}
-        extraClass={"p1"}
-        isClass={true}
-      />
+      {profileMusic?.slice(0, 1)?.map((music, id) => (
+        <Wrapper profileData={music} key={id} />
+      ))}
       <div className="music-profile-row p2">
-        <Wrapper
-          id={crypto.randomUUID()}
-          profileData={profileMusic[1]}
-          isClass={false}
-        />
-        <Wrapper
-          id={crypto.randomUUID()}
-          profileData={profileMusic[2]}
-          isClass={false}
-        />
+        {rowData?.map((music, id) => (
+          <Wrapper profileData={music} key={id} />
+        ))}
       </div>
-      <Wrapper
-        id={crypto.randomUUID()}
-        profileData={profileMusic[3]}
-        extraClass={"p3"}
-        isClass={true}
-      />
-      <Wrapper
-        id={crypto.randomUUID()}
-        profileData={profileMusic[4]}
-        extraClass={"p4"}
-        isClass={true}
-      />
+      {profileMusic?.slice(1, 3)?.map((music, id) => (
+        <Wrapper profileData={music} key={id} />
+      ))}
     </>
   );
 };
