@@ -36,35 +36,30 @@ export const iconsList = [
 
 export const profileMusic = [
   {
-    id: 1,
     src: p4,
     title: "KGF Chapter 2",
     song: "Sulthana",
     lines: l1,
   },
   {
-    id: 2,
     src: p3,
     title: "Salaar Part 1",
     song: "Warth of salaar",
     lines: l2,
   },
   {
-    id: 3,
     src: p2,
     title: "Fighter",
     song: "Ishq jaisa kuch",
     lines: l2,
   },
   {
-    id: 4,
     src: p1,
     title: "KGF Chapter 2",
     song: "Toofan",
     lines: l3,
   },
   {
-    id: 5,
     src: p5,
     title: "Devara Part 1",
     song: "Devara",

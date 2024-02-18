@@ -1,7 +1,7 @@
 import bgImg from "../assets/white musical note making sound.png";
 import musicImg from "../assets/Render.mp4";
 import Card from "./Card";
-import { iconsList, profileMusic } from "../iconsList";
+import { iconsList } from "../iconsList";
 import MusicCrad from "./MusicCrad";
 
 const HeroSection = () => {
@@ -23,7 +23,7 @@ const HeroSection = () => {
           <source src={musicImg} type="video/mp4" />
         </video>
         <div className="music-cards">
-          <MusicCrad profile={profileMusic} />
+          <MusicCrad />
         </div>
       </div>
     </div>
